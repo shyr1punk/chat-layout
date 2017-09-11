@@ -140,3 +140,23 @@ html, body {
   background: rgba(0, 93, 255, .9);
   color: #fff;
 }
+
+.overlay__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 44px;
+  text-align: center;
+  background: #d9d9d9;
+  line-height: 44px;
+}
+
+.overlay__content {
+  padding-top: 44px;
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
