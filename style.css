@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Arial, Helvetica, sans-serif;
 }
 
 .chat {
@@ -101,4 +102,40 @@ html, body {
   display: inline-block;
   box-sizing: border-box;
   width: 100%;
+}
+
+.chat__message {
+  margin-top: 10px;
+  border-radius: 20px;
+  align-self: flex-end;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+}
+
+.chat__message:last-child{
+  margin-bottom: 30px
+}
+
+.chat__message-text{
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 11px 20px 12px;
+  display: inline-block;
+  text-align: left;
+  max-width: 80%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.chat__message_type_in {
+  background: rgba(0, 0, 0, .1);
+}
+
+.chat__message_type_out {
+  text-align: right;
+  background: rgba(0, 93, 255, .9);
+  color: #fff;
 }
