@@ -163,3 +163,12 @@ html, body {
   overflow-y: auto;
   box-sizing: border-box;
 }
+
+.bug {
+  position: fixed;
+  height: 30px;
+  width: 30px;
+  background: orangered;
+  bottom: 0;
+  right: 0;
+}
